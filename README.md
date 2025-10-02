@@ -1,16 +1,28 @@
-# coinwell
+# 📱 Coinwell
+> A modern mobile app for tracking and managing cryptocurrency portfolios in real time.  
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Overview
+**Coinwell** is a mobile app designed to simplify crypto portfolio management. Users can track their coins, check real-time prices, and manage holdings in one clean interface. The app integrates **Firebase** for secure authentication, cloud data storage, and real-time sync across devices.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- 🔑 **Authentication** → Firebase email/password + Google sign-in  
+- 📊 **Portfolio Tracking** → Add, edit, and remove coins from your portfolio  
+- 💸 **Real-Time Prices** → Fetch live coin prices & market data  
+- ☁️ **Firebase Database** → Store user portfolios securely in Firestore  
+- 🔔 **Notifications** → Price alerts *(planned)*  
+- 🎨 **Clean UI/UX** → Minimal and mobile-friendly design  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+- **Frontend**: Flutter (Dart)  
+- **Backend/DB**: Firebase (Auth + Firestore + Cloud Functions)  
+- **API**: CoinGecko / Binance API (for market data)  
+
+---
+
+## 📂 Project Structure
